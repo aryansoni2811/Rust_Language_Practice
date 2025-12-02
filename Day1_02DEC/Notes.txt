@@ -1,0 +1,30 @@
+rustup is used for controlling the version of rust(it is cli tool)
+
+$ symbol is usede for terminal 
+rs is extension for rust files
+
+println! call a macro (if it is not there then it will function call)
+(macro means predefined set of code written by rust)
+
+
+for running the rust file :- 
+rustc main.rs       //it will compile the code and generate the excecutable file 
+.\main.exe 
+
+main function is always the first excecutable code that run when we use excecutable file 
+excecutable file is in binary so that any code can run it even without any rust setup
+
+rustfmt is used to format the file of rs
+
+
+rust is ahead of time compiled language means it can compile program and give excecutable file to someone else 
+
+
+cargo is rust package manageer (just like npm)
+cargo build is used to create a excecutable file often it here in the target folder 
+cargo new pro_name // use to create new project 
+so if we change the file ,then and then only it will recompile the code and then give the output 
+if file is not change then it will not recompile , it will just run the code again
+so for running use this :- cargo run
+for identifying the error but it dont compile the code  use :- cargo check 
+cargo build --release :- it will create target/release instead of target/debug which can be helpful when you want to publish the project
